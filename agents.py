@@ -1,10 +1,15 @@
+import os
+
 from langchain_ollama import ChatOllama
 from memory_store import retrieve_similar_cases, save_case
 from langchain_groq import ChatGroq 
+from dotenv import load_dotenv
 
-GROQ_API_KEY = "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"
+load_dotenv()  # Load environment variables from .env file
+
+
 llm = ChatGroq(
-    api_key=GROQ_API_KEY,
+    api_key=os.getenv("GROQ_API_KEY"),
     model="llama-3.3-70b-versatile",  # Updated model name
     temperature=0.2,
     max_tokens=1024
