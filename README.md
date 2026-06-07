@@ -1,4 +1,4 @@
-# MediRoute - Multi Agent Hospital Triage System
+# MediAssist - Multi Agent Hospital Triage System
 
 Offline multi-agent AI triage assistant using:
 - LangGraph
