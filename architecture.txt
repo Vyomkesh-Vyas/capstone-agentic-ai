@@ -1,0 +1,19 @@
+MEDI ASSIST MULTI-AGENT FLOW
+
+Patient Input
+    ↓
+Intake Agent
+    ↓
+Parallel Processing
+ ├── History Agent
+ ├── Symptom Agent
+ ├── Lab Agent
+ └── Memory Agent
+    ↓
+Risk Agent
+    ↓
+Triage Agent
+    ↓
+Review Agent
+    ↓
+Human Approval
